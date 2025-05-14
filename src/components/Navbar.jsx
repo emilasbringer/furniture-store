@@ -17,7 +17,7 @@ export default function Navbar() {
   const menuItems = [
     {
       name: "Möbler",
-      path: "/furniture",
+      path: "/catalog/furniture",
       subItems: [
         { name: "Soffor", path: "/furniture/sofas" },
         { name: "Bord", path: "/furniture/tables" },
@@ -26,7 +26,7 @@ export default function Navbar() {
     },
     {
       name: "Mattor",
-      path: "/rugs",
+      path: "/catalog/rugs",
       subItems: [
         { name: "Moderna", path: "/rugs/modern" },
         { name: "Vintage", path: "/rugs/vintage" },
@@ -34,7 +34,7 @@ export default function Navbar() {
     },
     {
       name: "Belysning",
-      path: "/lighting",
+      path: "/catalog/lighting",
       subItems: [
         { name: "Taklampor", path: "/lighting/ceiling" },
         { name: "Bordslampor", path: "/lighting/table" },
@@ -42,7 +42,7 @@ export default function Navbar() {
     },
     {
       name: "Kampanjer",
-      path: "/campaigns",
+      path: "/catalog/campaigns",
       subItems: [
         { name: "Höstrea", path: "/campaigns/autumn" },
         { name: "Vårfynd", path: "/campaigns/spring" },

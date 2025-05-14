@@ -18,10 +18,10 @@ export default function Home() {
   ];
 
   const categories = [
-    { name: "Möbler", path: "/furniture", image: "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60" },
-    { name: "Mattor", path: "/rugs", image: "https://images.unsplash.com/photo-1597665863042-47e00964d899?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60" },
-    { name: "Belysning", path: "/lighting", image: "https://images.unsplash.com/photo-1517991104123-1d56a6e81ed9?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60" },
-    { name: "Kampanjer", path: "/campaigns", image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60" },
+    { name: "Möbler", path: "/catalog/furniture", image: "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60" },
+    { name: "Mattor", path: "/catalog/rugs", image: "https://images.unsplash.com/photo-1597665863042-47e00964d899?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60" },
+    { name: "Belysning", path: "/catalog/lighting", image: "https://images.unsplash.com/photo-1517991104123-1d56a6e81ed9?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60" },
+    { name: "Kampanjer", path: "/catalog/campaigns", image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60" },
   ];
 
   return (
@@ -36,8 +36,10 @@ export default function Home() {
           <p className="text-lg md:text-2xl text-white mb-6">
             Fynda begagnade möbler i toppskick!
           </p>
+          <p className="text-lg md:text-2xl text-white mb-6 font-bold">15% rabbat med koden
+            CASPAR ÄR ETT OLLON</p>
           <Link
-            to="/campaigns"
+            to="/catalog/campaigns"
             className="inline-flex items-center px-6 py-3 bg-white text-indigo-600 font-semibold rounded-lg shadow-lg hover:bg-indigo-50 hover:scale-105 transition-all duration-300"
           >
             Shoppa nu <ArrowRightIcon className="w-5 h-5 ml-2" />

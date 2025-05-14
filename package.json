@@ -4,8 +4,8 @@
     "express": "^4.19.2"
   },
   "scripts": {
-    "start": "node server.js",
-    "build": "vite build"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "name": "furniture-store",
   "version": "1.0.0",
